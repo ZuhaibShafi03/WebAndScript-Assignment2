@@ -33,6 +33,7 @@
         </div>
       </div>
     </nav>
+    <br>
     <h1 style="text-align: center;"><%= title %></h1>
     <p style="text-align: center;">Welcome to my <%= title %> </p>
     <div class="container">
@@ -45,8 +46,8 @@
       <!-- About page -->
       <% if (title === 'About Me') { %>
       <div style="text-align: center;">
-        <img src="/Asset/images/About Me 1.jpg" alt="Avatar" width="250" height="250" style="border-radius: 50%;">
-        <h2>
+        <img src="/Asset/images/About Me 1.jpg" alt="Avatar" width="300" height="300" style="border-radius: 50%;">
+        <h3>
           <p>Hello, I'm Zuhaib Shafi, a second-year student studying in Networking and IT Security at Ontario Tech University. I am passionate about the world of technology and cybersecurity, and I'm on a journey to become a skilled professional in this field.</p>
 
           <p>During my academic journey, I have gained and will continue to learn valuable knowledge and hands-on experience in networking protocols, systems administration, coding languages such as python, HTML, CSS, ExpressJS, NodeJS, and cybersecurity practices. I am dedicated to enhancing my skills and staying up-to-date with the latest advancements in the industry.</p>
@@ -54,7 +55,7 @@
           <p>This portfolio showcases some of <a href="/projects">my projects</a>, achievements, and contributions within the networking and IT security domain. I am excited to share my journey with you and demonstrate my commitment to this dynamic field.</p>
 
           <p>Feel free to explore my portfolio, and if you have any inquiries or opportunities for collaboration, please don't hesitate to <a href="/contact">contact me</a>.</p>
-        </h2>
+        </h3>
       </div>
        <div id="video-container" style="text-align: center;">
         <video width="250" height="360" controls loop preload="auto" muted>
@@ -128,10 +129,14 @@
      </div>
   </body>
   <footer>
-    <div class="contact-info">
+    <div class="contact-info"  style="text-align: center;">
         <p>Contact me at: <a href="mailto:zuhaib.shafi@ontariotechu.net">zuhaib.shafi@ontariotechu.net</a></p>
     </div>
-    <div class="copyright">
+    <div class="social-links" style="text-align: center;">
+      <a href="https://github.com/ZuhaibShafi03">GitHub</a> |
+      <a href="https://www.linkedin.com/in/zuhaib-shafi-69b58a291">LinkedIn</a>
+    </div>  
+    <div class="copyright"  style="text-align: center;">
         <p>&copy; 2023 Zuhaib Shafi. All rights reserved.</p>
     </div>
 </footer>
